@@ -68,10 +68,10 @@
           ></ion-input> </ion-item
         ><ion-item>
           <ion-input
-            placeholder="Custom Hashtag"
+            placeholder="Custom Hashtag (e.g. : 2027, Red team)"
             text-center
           ></ion-input></ion-item
-        ><br />
+        ><br /><ion-label>Hashtag list (select any):</ion-label>
         <span *ngFor="let hashtag of hashtaglist">
           <ion-chip outline="false" (click)="toggle_hash(hashtag)">
             <ion-icon
